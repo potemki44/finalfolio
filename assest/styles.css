@@ -330,11 +330,12 @@
 
 
     .Projects {
-        margin-top: 6%;
+        margin-top: 25%;
         width: 100%;
         height: 100%;
-        display: grid;
-
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
 
 
         justify-content: center;
@@ -399,6 +400,67 @@
 
         color: rgb(28, 41, 226);
     }
+
+
+    /*----------------------WEATHER APP--------------------------------------*/
+    .weather {
+
+
+        width: 200px;
+
+
+        border: black solid 1px;
+
+        height: 400px;
+
+        background: rgb(247, 246, 244);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+
+
+
+    }
+
+    .weather:hover {
+
+        border-radius: 15px;
+        margin-top: 25px;
+        background-color: teal;
+    }
+
+
+    .weather_img {
+
+        height: 50%;
+
+        background-image: url("/assest/images/wat.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-decoration: none;
+
+    }
+
+    .weather_description {
+        text-decoration: none;
+        padding: 25px;
+        text-align: center;
+        margin-top: 0px;
+        text-decoration: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .weather_title {
+        font-feature-settings: "akhn";
+        text-align: center;
+        text-decoration: none;
+
+        color: rgb(28, 41, 226);
+    }
+
+
 
     button {
         margin-left: 38%;
@@ -740,7 +802,8 @@
         margin-top: 6%;
         width: 100%;
         height: 100%;
-        display: grid;
+        display: flex;
+        gap: 200px;
         justify-content: center;
         align-items: center;
     }
@@ -806,6 +869,75 @@
     button:hover {
         background-color: rgb(18, 64, 171);
     }
+
+    /**/
+    .weather {
+
+
+        width: 290px;
+        border: black solid 1px;
+        height: 500px;
+        background: rgb(247, 246, 244);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+
+
+
+    }
+
+    .weather:hover {
+
+        border-radius: 15px;
+        margin-top: 25px;
+        background-color: teal;
+    }
+
+
+    .weather_img {
+
+        height: 50%;
+
+        background-image: url("/assest/images/wat.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-decoration: none;
+
+    }
+
+    .weather_description {
+        text-decoration: none;
+        padding: 25px;
+        text-align: center;
+        margin-top: 0px;
+        text-decoration: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .weather_title {
+        font-feature-settings: "akhn";
+        text-align: center;
+        text-decoration: none;
+
+        color: rgb(28, 41, 226);
+    }
+
+
+
+    button {
+        margin-left: 38%;
+
+        background-color: aquamarine;
+        border-radius: 25px;
+    }
+
+    button:hover {
+        background-color: rgb(18, 64, 171)
+    }
+
+
 
 
     .regrese {
