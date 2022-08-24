@@ -117,7 +117,7 @@
 
     .About_Name {
         display: flex;
-
+margin-left: 5%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -636,6 +636,8 @@
 
 
     .About_Pic {
+        margin-top: 4%;
+        margin-right: 3%;
         background-image: url("./images/portadapp.png");
         background-size: contain;
         background-repeat: no-repeat;
@@ -799,13 +801,16 @@
 
 
     .Projects {
-        margin-top: 6%;
+ 
+        margin-top: 4%;
         width: 100%;
         height: 100%;
         display: flex;
-        gap: 200px;
+        flex-wrap: wrap;
+        gap: 100px;
         justify-content: center;
         align-items: center;
+        
     }
 
     .rickandmorty {
@@ -924,8 +929,61 @@
         color: rgb(28, 41, 226);
     }
 
+    /**/
+    .users {
 
 
+        width: 290px;
+        border: black solid 1px;
+        height: 500px;
+        background: rgb(247, 246, 244);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+
+
+
+    }
+
+    .users:hover {
+
+        border-radius: 15px;
+        margin-top: 25px;
+        background-color: teal;
+    }
+
+
+    .users_img {
+
+        height: 33%;
+margin-top: 80px;
+        background-image: url("/assest/images/users.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-decoration: none;
+
+    }
+
+    .users_description {
+        text-decoration: none;
+        padding: 25px;
+        text-align: center;
+        margin-top: 0px;
+        text-decoration: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .users_title {
+        font-feature-settings: "akhn";
+        text-align: center;
+        text-decoration: none;
+
+        color: rgb(28, 41, 226);
+    }
+
+    /******/
     button {
         margin-left: 38%;
 
